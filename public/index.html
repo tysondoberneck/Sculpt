@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sculpt Demo Page</title>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header id="mainHeader" ai_prompt="a captivating header with a background image and overlay effect" regenerate="false">
+        <h1 id="siteTitle" ai_prompt="an eye-catching title for the website" regenerate="false">Welcome to Sculpt Demo</h1>
+        <nav id="navMenu" ai_prompt="a navigation menu with links to different sections" regenerate="false">
+            <a href="#section1" ai_prompt="navigation link">Home</a>
+            <a href="#section2" ai_prompt="navigation link">About</a>
+            <a href="#section3" ai_prompt="navigation link">Services</a>
+            <a href="#section4" ai_prompt="navigation link">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="mainContent" ai_prompt="main content area with appropriate styling" regenerate="false">
+        <section id="section1" ai_prompt="a welcoming section with pleasant background" regenerate="false">
+            <h2 id="sectionTitle1" ai_prompt="section title">Our Mission</h2>
+            <p id="sectionText1" ai_prompt="paragraph text that is easy to read">
+                We aim to provide the best services to our customers by integrating AI into web development.
+            </p>
+            <button id="learnMoreBtn" ai_prompt="a button that stands out">Learn More</button>
+        </section>
+
+        <section id="section2" ai_prompt="about us section with team image" regenerate="false">
+            <h2 id="sectionTitle2" ai_prompt="section title">About Us</h2>
+            <p id="sectionText2" ai_prompt="informative paragraph about the team">
+                Our team consists of experts in AI and web development, dedicated to innovation.
+            </p>
+            <img id="teamPhoto" src="team.jpg" alt="Team Photograph" ai_prompt="an image of a tech team of 3 working at computers" regenerate="false">
+        </section>
+
+        <section id="section3" ai_prompt="services section showcasing what we offer" regenerate="false">
+            <h2 id="sectionTitle3" ai_prompt="section title">Services</h2>
+            <div class="serviceItem" ai_prompt="service item box for web development" regenerate="false">
+                <h3 ai_prompt="service title">Web Development</h3>
+                <p ai_prompt="service description">Building responsive and modern websites.</p>
+            </div>
+            <div class="serviceItem" ai_prompt="service item box for AI integration" regenerate="false">
+                <h3 ai_prompt="service title">AI Integration</h3>
+                <p ai_prompt="service description">Integrating AI solutions into your business.</p>
+            </div>
+            <div class="serviceItem" ai_prompt="service item box for consulting" regenerate="false">
+                <h3 ai_prompt="service title">Consulting</h3>
+                <p ai_prompt="service description">Providing expert advice on AI and development.</p>
+            </div>
+        </section>
+
+        <section id="section4" ai_prompt="contact section with a user-friendly form" regenerate="false">
+            <h2 id="sectionTitle4" ai_prompt="section title">Contact Us</h2>
+            <form id="contactForm" ai_prompt="a simple and clean contact form" regenerate="false">
+                <label for="name" ai_prompt="form label">Name:</label>
+                <input type="text" id="name" name="name" ai_prompt="input field for name" regenerate="false">
+                
+                <label for="email" ai_prompt="form label">Email:</label>
+                <input type="email" id="email" name="email" ai_prompt="input field for email" regenerate="false">
+                
+                <label for="message" ai_prompt="form label">Message:</label>
+                <textarea id="message" name="message" ai_prompt="textarea for message" regenerate="false"></textarea>
+                
+                <button type="submit" id="submitBtn" ai_prompt="submit button for the form">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="mainFooter" ai_prompt="a footer with essential information" regenerate="false">
+        <p ai_prompt="footer text">© 2023 Sculpt Demo. All rights reserved.</p>
+    </footer>
+
+    <!-- Include script.js -->
+    <script src="script.js"></script>
+</body>
+</html>
